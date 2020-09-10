@@ -34,14 +34,11 @@ export default function Home() {
       Energy Usage vs Temperature (Average daily energy consumption vs. average daily temperature queried from the nearest weather station)<br></br>
       Energy Usage vs Sunlight (position of the sun as a proxy for the amount of sunlight hitting a building)<br></br>
       </p>
-
       <h4>5. Architecture:</h4>
-
       <p>Software to collect data, sanitize it and upload to cloud. <br></br>
       Software which feeds into this data, and performs the Analytics<br></br>
       Web-Frontend to display all data and analytics<br></br>
       [Sensor emulator (time-series data) >> kafka queue >> database >> apache spark >> grafana dashboard]</p>
-
       <h4>6. Demo</h4>
       <p>Designing the frontend UI for displaying all the data and analytics using sample APIs (currently using stock data) for realtime displays using ReactJS and Kendo-React for UI</p>
     </>
